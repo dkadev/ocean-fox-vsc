@@ -1,0 +1,40 @@
+{
+	"name": "oceanfox-theme",
+    "displayName": "Ocean Fox",
+	"description": "Theme for VSCode based on Material Theme Ocean and Firefox Developer Tools color scheme",
+	"version": "1.0.0",
+    "publisher": "dkadev",
+    "icon": "logo.png",
+    "galleryBanner": {
+		"color": "#11131C",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/dkadev/ocean-fox-vsc.git"
+	},
+    "categories": [
+		"Themes",
+		"Other"
+	],
+    "keywords": [
+		"VSCode",
+		"Themes"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ocean Fox Theme",
+				"path": "./themes/Ocean-Fox-Default.json",
+				"uiTheme": "vs-dark"
+			}
+		]
+	}
+}
